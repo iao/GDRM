@@ -1,0 +1,42 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ClassLibrary1/NPCharacter.cs">
+    <Files>
+      <File FileName="ClassLibrary1/Visualization/InteractionManager.cs" Line="1" Column="1" />
+      <File FileName="ClassLibrary1/PCManager.cs" Line="1" Column="1" />
+      <File FileName="ClassLibrary1/PCharacter.cs" Line="1" Column="1" />
+      <File FileName="ClassLibrary1/Time/LightSourceManager.cs" Line="1" Column="1" />
+      <File FileName="ClassLibrary1/Command/CommandManager.cs" Line="1" Column="1" />
+      <File FileName="ClassLibrary1/NPCInstruction.cs" Line="1" Column="1" />
+      <File FileName="ClassLibrary1/AssetManager.cs" Line="1" Column="1" />
+      <File FileName="ClassLibrary1/Location.cs" Line="1" Column="1" />
+      <File FileName="ClassLibrary1/GDRM.cs" Line="460" Column="101" />
+      <File FileName="ClassLibrary1/NPCManager.cs" Line="1" Column="1" />
+      <File FileName="ClassLibrary1/NavManager.cs" Line="1" Column="1" />
+      <File FileName="ClassLibrary1/Managers.cs" Line="1" Column="1" />
+      <File FileName="ClassLibrary1/NPCharacter.cs" Line="554" Column="75" />
+      <File FileName="ClassLibrary1/Interfaces/IPCManager.cs" Line="1" Column="1" />
+      <File FileName="ClassLibrary1/Time/TimeManager.cs" Line="1" Column="1" />
+      <File FileName="ClassLibrary1/Interfaces/ITimeManager.cs" Line="1" Column="1" />
+      <File FileName="ClassLibrary1/PyNPCharacter.cs" Line="280" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="GD" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="Command" expanded="True" />
+            <Node name="Interfaces" expanded="True" />
+            <Node name="Time" expanded="True" />
+            <Node name="Visualization" expanded="True" />
+            <Node name="NPCharacter.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,35 @@
+<events>
+	<event>
+		<name>choir</name>
+		<max>5</max>
+		<instructions>
+			<Say><message>Time for a service.</message></Say>
+			<SetAppearance><appearance_name>ornate_canon</appearance_name></SetAppearance>
+			<NavigateTo><node_name>choir_south</node_name></NavigateTo>
+			<LookAt><node_name>north</node_name></LookAt>
+			<DoAnimation><animation_name>choir</animation_name><animation_duration>0</animation_duration></DoAnimation>
+		</instructions>
+	</event>
+	<event>
+		<name>choir</name>
+		<max>6</max>
+		<instructions>
+			<Say><message>Time for a service.</message></Say>
+			<SetAppearance><appearance_name>ornate_canon</appearance_name></SetAppearance>
+			<NavigateTo><node_name>choir_north</node_name></NavigateTo>
+			<LookAt><node_name>south</node_name></LookAt>
+			<DoAnimation><animation_name>choir</animation_name><animation_duration>0</animation_duration></DoAnimation>
+		</instructions>
+	</event>
+	<event>
+		<name>choir</name>
+		<max>5</max>
+		<instructions>
+			<Say><message>Time for a service.</message></Say>
+			<SetAppearance><appearance_name>ornate_canon</appearance_name></SetAppearance>
+			<NavigateTo><node_name>service</node_name></NavigateTo>
+			<LookAt><node_name>east</node_name></LookAt>
+			<DoAnimation><animation_name>choir</animation_name><animation_duration>0</animation_duration></DoAnimation>
+		</instructions>
+	</event>
+</events>

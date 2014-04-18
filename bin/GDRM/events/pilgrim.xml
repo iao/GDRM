@@ -1,0 +1,43 @@
+<events>
+	<event>
+		<name>mass</name>
+		<max>5</max>
+		<instructions>
+			<Spawn><spawned>true</spawned></Spawn>
+			<Say><message>Time to go to mass.</message></Say>
+			<NavigateTo><node_name>pilgrim_service_north</node_name></NavigateTo>
+			<LookAt><node_name>southeast</node_name></LookAt>
+			<DoAnimation><animation_name>pray</animation_name><animation_duration>0</animation_duration></DoAnimation>
+		</instructions>
+	</event>
+	<event>
+		<name>mass</name>
+		<max>5</max>
+		<instructions>
+			<Spawn><spawned>true</spawned></Spawn>
+			<Say><message>Time to go to mass.</message></Say>
+			<NavigateTo><node_name>pilgrim_service_south</node_name></NavigateTo>
+			<LookAt><node_name>northeast</node_name></LookAt>
+			<DoAnimation><animation_name>pray</animation_name><animation_duration>0</animation_duration></DoAnimation>
+		</instructions>
+	</event>
+	<event>
+		<name>mass</name>
+		<max>2</max>
+		<instructions>
+			<Spawn><spawned>true</spawned></Spawn>
+			<Say><message>Time to go to mass.</message></Say>
+			<NavigateTo><node_name>pilgrim_service_west</node_name></NavigateTo>
+			<LookAt><node_name>east</node_name></LookAt>
+			<DoAnimation><animation_name>pray</animation_name><animation_duration>0</animation_duration></DoAnimation>
+		</instructions>
+	</event>
+	<event>
+		<name>exitcathedral</name>
+		<max>32</max>
+		<instructions>
+			<NavigateTo><node_name>exit</node_name></NavigateTo>
+			<Spawn><spawned>false</spawned></Spawn>
+		</instructions>
+	</event>
+</events>

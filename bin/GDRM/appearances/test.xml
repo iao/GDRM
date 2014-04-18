@@ -1,0 +1,117 @@
+<llsd>
+  <map>
+    <key>serial</key>
+    <integer>0</integer>
+    <key>height</key>
+    <real>1.6909986734390259</real>
+    <key>wearables</key>
+    <array>
+      <array>
+        <map>
+          <key>item</key>
+          <uuid>55d08b08-8b55-412e-a7c0-6f481f2a17e4</uuid>
+          <key>asset</key>
+          <uuid>05677f5a-d6d2-778a-4c5c-fb7007e79118</uuid>
+        </map>
+      </array>
+      <array>
+        <map>
+          <key>item</key>
+          <uuid>6c9eb2de-0774-4d80-b59b-2a37c55a0798</uuid>
+          <key>asset</key>
+          <uuid>e353a12a-4983-1cd0-4972-9a149e2c7a47</uuid>
+        </map>
+      </array>
+      <array>
+        <map>
+          <key>item</key>
+          <uuid>c117e7cb-119d-4937-9b66-2b19403fda88</uuid>
+          <key>asset</key>
+          <uuid>17eae64e-1298-c8e5-1c5d-661ddc6a7967</uuid>
+        </map>
+      </array>
+      <array>
+        <map>
+          <key>item</key>
+          <uuid>6cb9d69f-9bbb-412e-8cb4-67fd60118e39</uuid>
+          <key>asset</key>
+          <uuid>23d29f56-70d0-ab2c-7675-2e56aaaa5af2</uuid>
+        </map>
+      </array>
+      <array>
+        <map>
+          <key>item</key>
+          <uuid>f920159f-c786-4028-aa74-fd28515d1366</uuid>
+          <key>asset</key>
+          <uuid>8ea5b015-3849-9a49-d80f-471c103d90dc</uuid>
+        </map>
+      </array>
+      <array>
+        <map>
+          <key>item</key>
+          <uuid>ee00d309-7578-496a-9dfb-71fdd879e7ad</uuid>
+          <key>asset</key>
+          <uuid>05b4abbd-792a-48de-9924-fcfdb7d24ad6</uuid>
+        </map>
+      </array>
+      <array>
+        <map>
+          <key>item</key>
+          <uuid>f82494f3-b1d9-47d1-93b1-6d33e21efef4</uuid>
+          <key>asset</key>
+          <uuid>006eb7af-3327-a64e-8ee5-6c8d90d2310e</uuid>
+        </map>
+      </array>
+      <array>
+        <map>
+          <key>item</key>
+          <uuid>be210ad3-78c2-4d28-ad85-46a42b0933d6</uuid>
+          <key>asset</key>
+          <uuid>b5cab5ec-6398-fa61-6162-a9272170e976</uuid>
+        </map>
+      </array>
+      <array />
+      <array />
+      <array />
+      <array />
+      <array>
+        <map>
+          <key>item</key>
+          <uuid>5378cf5b-aba7-4e9d-a266-df16399842c6</uuid>
+          <key>asset</key>
+          <uuid>2a61970b-b0c3-1654-97f0-7566197c7c21</uuid>
+        </map>
+      </array>
+      <array />
+      <array />
+    </array>
+    <key>textures</key>
+    <array>
+      <uuid>46697265-7374-6f72-6d00-000000000000</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>27a6ab65-15f1-414c-9cf2-6267719c5073</uuid>
+      <uuid>0e5e3a1e-261b-46c4-94c5-d215fe366206</uuid>
+      <uuid>a7378811-bbec-485a-af58-886a4087faa3</uuid>
+      <uuid>e9ee9a2a-77e0-4acb-a5fa-304ef5c59470</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>7aaef131-0f35-428c-9efc-0aebe50182d1</uuid>
+      <uuid>29fc2fc3-9b08-4971-a3cc-037595c1fc25</uuid>
+    </array>
+    <key>visualparams</key>
+    <binary encoding="base64">IT1VFzp/P1U/KgBVPyRVX5k/IgA/bViEP4hRVWeIfwDLugB/AAB/AAB/AAAAf3J/Yz9/jH9/AAAAvwBoAAAAAAAAAAAAkdiFAH8Af6oAAH9/bVV/fz9VKmTY1szMzDMZ/0zMAH8AAJBVf4R/VQB/f39/f387f1V/f2ovT39/zD8AAAAAf38AAAAAfwCfAACyfyRVg39/f5lfAIxKG39/ANbMxgAAPx5/4u2v////////AAD/zAAAAAAA/////////0z//////6h/f/8Z//////9/AAAAM4T///8=</binary>
+    <key>attachments</key>
+    <array />
+  </map>
+</llsd>

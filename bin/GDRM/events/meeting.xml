@@ -1,0 +1,36 @@
+<events>
+	<event>
+		<name>meeting</name>
+		<max>7</max>
+		<instructions>
+			<Say><message>Time to go to a meeting!</message></Say>
+			<SetAppearance><appearance_name>cassock_canon</appearance_name></SetAppearance>
+			<NavigateTo><node_name>meeting_south</node_name></NavigateTo>
+			<LookAt><node_name>north</node_name></LookAt>
+			<DoAnimation><animation_name>meeting</animation_name><animation_duration>0</animation_duration></DoAnimation>
+		</instructions>
+	</event>
+	<event>
+		<name>meeting</name>
+		<max>6</max>
+		<instructions>
+			<Say><message>Time to go to a meeting!</message></Say>
+			<SetAppearance><appearance_name>cassock_canon</appearance_name></SetAppearance>
+			<NavigateTo><node_name>meeting_north</node_name></NavigateTo>
+			<LookAt><node_name>south</node_name></LookAt>
+			<DoAnimation><animation_name>meeting</animation_name><animation_duration>0</animation_duration></DoAnimation>
+		</instructions>
+	</event>
+	<event>
+		<name>meeting</name>
+		<max>2</max>
+		<instructions>
+			<Say><message>Time to go to a meeting!</message></Say>
+			<SetAppearance><appearance_name>cassock_canon</appearance_name></SetAppearance>
+			<NavigateTo><node_name>meeting_east</node_name></NavigateTo>
+			<LookAt><node_name>west</node_name></LookAt>
+			<DoAnimation><animation_name>meeting</animation_name><animation_duration>0</animation_duration></DoAnimation>
+		</instructions>
+	</event>
+
+</events>

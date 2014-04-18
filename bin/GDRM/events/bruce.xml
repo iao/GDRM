@@ -1,0 +1,24 @@
+<events>
+	<event>
+		<name>brucespawn</name>
+		<max>1</max>
+		<instructions>
+			<Spawn><spawned>true</spawned></Spawn>
+			<NavigateTo><node_name>bruce</node_name></NavigateTo>
+		</instructions>
+	</event>
+	<event>
+		<name>bruce1</name>
+		<max>1</max>
+		<instructions>
+			<NavigateTo><node_name>bruce</node_name></NavigateTo>
+		</instructions>
+	</event>
+	<event>
+		<name>bruce2</name>
+		<max>1</max>
+		<instructions>
+			<NavigateTo><node_name>bruce</node_name></NavigateTo>
+		</instructions>
+	</event>
+</events>

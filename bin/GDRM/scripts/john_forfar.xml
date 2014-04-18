@@ -1,0 +1,22 @@
+<events>
+	<event>
+		<name>eat_main</name>
+		<trigger_time>13:55</trigger_time>
+	</event>
+	<event>
+		<name>exitcathedral</name>
+		<trigger_time>15:00</trigger_time>
+	</event>
+	<event>
+		<name>eat_main</name>
+		<trigger_time>17:20</trigger_time>
+	</event>
+	<event>
+		<name>meeting_main</name>
+		<trigger_time>18:15</trigger_time>
+	</event>
+	<event>
+		<name>exitcathedral</name>
+		<trigger_time>18:30</trigger_time>
+	</event>
+</events>

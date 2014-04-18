@@ -1,0 +1,40 @@
+<events>
+	<event>
+		<name>job</name>
+		<max>3</max>
+		<instructions>
+			<Say><message>Time to go work in the garden.</message></Say>
+			<SetAppearance><appearance_name>cassock_canon</appearance_name></SetAppearance>
+			<NavigateTo><node_name>garden</node_name></NavigateTo>
+		</instructions>
+	</event>
+	<event>
+		<name>job</name>
+		<max>4</max>
+		<instructions>
+			<Say><message>Time to go work as a scribe.</message></Say>
+			<SetAppearance><appearance_name>cassock_canon</appearance_name></SetAppearance>
+			<NavigateTo><node_name>scribe</node_name></NavigateTo>
+			<LookAt><node_name>west</node_name></LookAt>
+			<DoAnimation><animation_name>scribe</animation_name><animation_duration>0</animation_duration></DoAnimation>
+		</instructions>
+	</event>
+	<event>
+		<name>job</name>
+		<max>4</max>
+		<instructions>
+			<Say><message>Time to go work in the kitchen.</message></Say>
+			<SetAppearance><appearance_name>cassock_canon</appearance_name></SetAppearance>
+			<NavigateTo><node_name>cook</node_name></NavigateTo>
+		</instructions>
+	</event>
+	<event>
+		<name>job</name>
+		<max>1</max>
+		<instructions>
+			<Say><message>Time to go fetch some water from the well.</message></Say>
+			<SetAppearance><appearance_name>cassock_canon</appearance_name></SetAppearance>
+			<NavigateTo><node_name>well</node_name></NavigateTo>
+		</instructions>
+	</event>
+</events>

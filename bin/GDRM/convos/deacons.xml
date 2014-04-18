@@ -1,0 +1,23 @@
+<convos>
+	<convo>
+		<name>deacon_convo</name>
+		<trigger>
+			<trigger_text>hello</trigger_text>
+			<trigger_text>hi</trigger_text>
+			<trigger_text>hey</trigger_text>
+			<sound>deacon_hello</sound>
+			<message>Hello there, I am the deacon.</message>
+		</trigger>
+	</convo>
+	
+	<convo>
+		<name>subdeacon_convo</name>
+		<trigger>
+			<trigger_text>hello</trigger_text>
+			<trigger_text>hi</trigger_text>
+			<trigger_text>hey</trigger_text>
+			<sound>subdeacon_hello</sound>
+			<message>Hello there, I am the subdeacon.</message>
+		</trigger>
+	</convo>
+</convos>

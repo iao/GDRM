@@ -1,0 +1,68 @@
+<convos>
+	<convo>
+		<name>canon_convo</name>
+		<trigger>
+			<trigger_text>hello</trigger_text>
+			<trigger_text>hi</trigger_text>
+			<trigger_text>hey</trigger_text>
+			<sound>canonhello</sound>
+			<message>Hello there, I am a [canon] of St Andrews Cathedral.</message>
+		</trigger>
+		
+		<trigger>
+			<trigger_text>canon</trigger_text>
+			<trigger_text>cannon</trigger_text>
+			<sound>canoncanon</sound>
+			<message>A canon is a cleric who lives with others within a clergyhouse or cathedral. We canons spend our days holding [services], [scribing], and [looking after] the cathedral.</message>
+		</trigger>
+		
+		<trigger>
+			<trigger_text>services</trigger_text>
+			<trigger_text>service</trigger_text>
+			<sound>canonservices</sound>
+			<message>During services, some of us change into our more ornate robes before forming a choir. Services can be held in various [different places].</message>
+		</trigger>
+		
+		<trigger>
+			<trigger_text>different places</trigger_text>
+			<trigger_text>places</trigger_text>
+			<sound>canondifferentplaces</sound>
+			<message>Most of the time we hold services within the cathedral itself, but sometimes we hold services in other local churches too.</message>
+		</trigger>
+		
+		<trigger>
+			<trigger_text>scribing</trigger_text>
+			<trigger_text>scribe</trigger_text>
+			<sound>canonscribing</sound>
+			<message>Some of us spend a significant portion of the day in the [scriptorium] copying out [manuscripts] in order preserve the knowledge within them.</message>
+		</trigger>
+		
+		<trigger>
+			<trigger_text>scriptorium</trigger_text>
+			<sound>canonscriptorium</sound>
+			<message>A scriptorium is room devoted to the copying of [manuscripts].</message>
+		</trigger>
+		
+		<trigger>
+			<trigger_text>manuscripts</trigger_text>
+			<trigger_text>manuscript</trigger_text>
+			<sound>canonmanuscripts</sound>
+			<message>A manuscript is any document written by hand. They can be in the form of either books or scrolls. Some special manuscripts are known as [iluminated] manuscripts.</message>
+		</trigger>
+		
+		<trigger>
+			<trigger_text>iluminate</trigger_text>
+			<trigger_text>iluminated</trigger_text>
+			<sound>canoniluminatedmanuscripts</sound>
+			<message>Iluminated manuscripts are enriched with pictures, border decorations, elaborately embossed initial letters, or full-page illustrations.</message>
+		</trigger>
+		
+		<trigger>
+			<trigger_text>looking after</trigger_text>
+			<trigger_text>looking</trigger_text>
+			<sound>canonlookingafter</sound>
+			<message>One of the duties we must carry out is to maintain the appearance and functionality of the Cathedral itself, including maintaining the grounds.</message>
+		</trigger>
+		
+	</convo>
+</convos>

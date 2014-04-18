@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1F7B9B1F-908F-4428-AA03-4B903739C4EA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GD</RootNamespace>
+    <AssemblyName>GDRM</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\..\opensim-0.7.6\bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Addins">
+      <HintPath>..\bin\Mono.Addins.dll</HintPath>
+    </Reference>
+    <Reference Include="Nini">
+      <HintPath>..\..\opensim-0.7.6\bin\Nini.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenMetaverse">
+      <HintPath>..\..\opensim-0.7.6\bin\OpenMetaverse.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenMetaverseTypes">
+      <HintPath>..\..\opensim-0.7.6\bin\OpenMetaverseTypes.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSim.Region.OptionalModules">
+      <HintPath>..\..\opensim-0.7.6\bin\OpenSim.Region.OptionalModules.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="OpenMetaverse.StructuredData">
+      <HintPath>..\..\opensim-0.7.6\bin\OpenMetaverse.StructuredData.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSim.Region.Physics.Manager">
+      <HintPath>..\..\opensim-0.7.6\bin\OpenSim.Region.Physics.Manager.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSim.Region.Framework">
+      <HintPath>..\..\opensim-0.7.6\bin\OpenSim.Region.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSim.Region.CoreModules">
+      <HintPath>..\..\opensim-0.7.6\bin\OpenSim.Region.CoreModules.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSim.Services.Interfaces">
+      <HintPath>..\..\opensim-0.7.6\bin\OpenSim.Services.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSim.Framework">
+      <HintPath>..\..\opensim-0.7.6\bin\OpenSim.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSim.Region.ScriptEngine.Shared">
+      <HintPath>..\..\opensim-0.7.6\bin\OpenSim.Region.ScriptEngine.Shared.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssetManager.cs" />
+    <Compile Include="Managers.cs" />
+    <Compile Include="Command\CommandManager.cs" />
+    <Compile Include="NPCInstruction.cs" />
+    <Compile Include="PyNPCharacter.cs" />
+    <Compile Include="Visualization\InteractionManager.cs" />
+    <Compile Include="Location.cs" />
+    <Compile Include="GDRM.cs" />
+    <Compile Include="NavManager.cs" />
+    <Compile Include="NPCharacter.cs" />
+    <Compile Include="NPCManager.cs" />
+    <Compile Include="PCharacter.cs" />
+    <Compile Include="PCManager.cs" />
+    <Compile Include="Time\LightSourceManager.cs" />
+    <Compile Include="Time\LightSource.cs" />
+    <Compile Include="Time\TimeManager.cs" />
+    <Compile Include="Interfaces\IPCManager.cs" />
+    <Compile Include="Interfaces\ICommandManager.cs" />
+    <Compile Include="Interfaces\IInteractionManager.cs" />
+    <Compile Include="Interfaces\IGDRM.cs" />
+    <Compile Include="Interfaces\ILightSourceManager.cs" />
+    <Compile Include="Interfaces\ITimeManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+</Project>

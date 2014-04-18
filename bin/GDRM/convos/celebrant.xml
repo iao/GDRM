@@ -1,0 +1,18 @@
+<convos>
+	<convo>
+		<name>celebrant_convo</name>
+		<trigger>
+			<trigger_text>hello</trigger_text>
+			<trigger_text>hi</trigger_text>
+			<trigger_text>hey</trigger_text>
+			<sound>celebranthello</sound>
+			<message>Hello there, I am the [celebrant].</message>
+		</trigger>
+		<trigger>
+			<trigger_text>celebrant</trigger_text>
+			<trigger_text>celebrante</trigger_text>
+			<sound>celebrant_celebrant</sound>
+			<message>A celebrant, or officiant, is someone who leads at a service or ceremony.</message>
+		</trigger>
+	</convo>
+</convos>

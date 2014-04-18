@@ -1,0 +1,53 @@
+<events>
+	<event>
+		<name>reading/meditation</name>
+		<max>8</max>
+		<instructions>
+			<Say><message>Time for some recreational time in the warm room.</message></Say>
+			<SetAppearance><appearance_name>cassock_canon</appearance_name></SetAppearance>
+			<NavigateTo><node_name>warm</node_name></NavigateTo>
+			<DoAnimation><animation_name>sit</animation_name><animation_duration>0</animation_duration></DoAnimation>
+		</instructions>
+	</event>
+	<event>
+		<name>reading/meditation</name>
+		<max>6</max>
+		<instructions>
+			<Say><message>Time for some recreational time in the warm room.</message></Say>
+			<SetAppearance><appearance_name>cassock_canon</appearance_name></SetAppearance>
+			<NavigateTo><node_name>warm_east</node_name></NavigateTo>
+			<LookAt><node_name>east</node_name></LookAt>
+			<DoAnimation><animation_name>sit</animation_name><animation_duration>0</animation_duration></DoAnimation>
+		</instructions>
+	</event>
+	<event>
+		<name>reading/meditation</name>
+		<max>1</max>
+		<instructions>
+			<Say><message>Time for some recreational time in the warm room.</message></Say>
+			<SetAppearance><appearance_name>cassock_canon</appearance_name></SetAppearance>
+			<NavigateTo><node_name>warm_fire_east</node_name></NavigateTo>
+			<LookAt><node_name>east</node_name></LookAt>
+		</instructions>
+	</event>
+	<event>
+		<name>reading/meditation</name>
+		<max>1</max>
+		<instructions>
+			<Say><message>Time for some recreational time in the warm room.</message></Say>
+			<SetAppearance><appearance_name>cassock_canon</appearance_name></SetAppearance>
+			<NavigateTo><node_name>warm_fire_south</node_name></NavigateTo>
+			<LookAt><node_name>south</node_name></LookAt>
+		</instructions>
+	</event>
+		<event>
+		<name>reading/meditation</name>
+		<max>1</max>
+		<instructions>
+			<Say><message>Time for some recreational time in the warm room.</message></Say>
+			<SetAppearance><appearance_name>cassock_canon</appearance_name></SetAppearance>
+			<NavigateTo><node_name>warm_fire_north</node_name></NavigateTo>
+			<LookAt><node_name>north</node_name></LookAt>
+		</instructions>
+	</event>
+</events>

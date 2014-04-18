@@ -1,0 +1,36 @@
+<events>
+	<event>
+		<name>highaltar_celebrant</name>
+		<max>1</max>
+		<instructions>
+			<Say><message>Time for mass.</message></Say>
+			<SetAppearance><appearance_name>celebrant</appearance_name></SetAppearance>
+			<NavigateTo><node_name>highaltar_celebrant</node_name></NavigateTo>
+			<LookAt><node_name>east</node_name></LookAt>
+		</instructions>
+	</event>
+	
+	<event>
+		<name>highaltar_deacon</name>
+		<max>1</max>
+		<instructions>
+			<Say><message>Time for mass.</message></Say>
+			<SetAppearance><appearance_name>deacon</appearance_name></SetAppearance>
+			<NavigateTo><node_name>highaltar_deacon</node_name></NavigateTo>
+			<LookAt><node_name>northeast</node_name></LookAt>
+			<DoAnimation><animation_name>pray</animation_name><animation_duration>0</animation_duration></DoAnimation>
+		</instructions>
+	</event>
+	
+	<event>
+		<name>highaltar_subdeacon</name>
+		<max>1</max>
+		<instructions>
+			<Say><message>Time for mass.</message></Say>
+			<SetAppearance><appearance_name>deacon</appearance_name></SetAppearance>
+			<NavigateTo><node_name>highaltar_subdeacon</node_name></NavigateTo>
+			<LookAt><node_name>southeast</node_name></LookAt>
+			<DoAnimation><animation_name>pray</animation_name><animation_duration>0</animation_duration></DoAnimation>
+		</instructions>
+	</event>
+</events>

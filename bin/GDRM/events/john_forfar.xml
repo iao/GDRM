@@ -1,0 +1,22 @@
+<events>
+	<event>
+		<name>eat_main</name>
+		<max>1</max>
+		<instructions>
+			<Spawn><spawned>true</spawned></Spawn>
+			<NavigateTo><node_name>eat_main</node_name></NavigateTo>
+			<LookAt><node_name>west</node_name></LookAt>
+			<DoAnimation><animation_name>sit</animation_name><animation_duration>0</animation_duration></DoAnimation>
+		</instructions>
+	</event>
+	<event>
+		<name>meeting_main</name>
+		<max>1</max>
+		<instructions>
+			<Spawn><spawned>true</spawned></Spawn>
+			<NavigateTo><node_name>meeting_main</node_name></NavigateTo>
+			<LookAt><node_name>west</node_name></LookAt>
+			<DoAnimation><animation_name>sit</animation_name><animation_duration>0</animation_duration></DoAnimation>
+		</instructions>
+	</event>
+</events>

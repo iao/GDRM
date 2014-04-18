@@ -1,0 +1,13 @@
+<events>
+	<event>
+		<name>toilet</name>
+		<max>11</max>
+		<instructions>
+			<Say><message>Time for the toilet</message></Say>
+			<SetAppearance><appearance_name>cassock_canon</appearance_name></SetAppearance>
+			<NavigateTo><node_name>toilet</node_name></NavigateTo>
+			<LookAt><node_name>north</node_name></LookAt>
+			<DoAnimation><animation_name>sit</animation_name><animation_duration>0</animation_duration></DoAnimation>
+		</instructions>
+	</event>
+</events>

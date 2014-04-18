@@ -1,0 +1,34 @@
+<animations>
+	<animation>
+		<name>pray</name>
+		<uuid>82781237-c41c-4bfc-b3f3-23bdf9c5c155</uuid>
+	</animation>
+	<animation>
+		<name>sleep</name>
+		<uuid>f1c9d897-1a94-4c28-bb60-c620debc34f6</uuid>
+	</animation>
+	<animation>
+		<name>choir</name>
+		<uuid>2a025f56-6820-4945-9d90-32266fbb7b14</uuid>
+	</animation>
+	<animation>
+		<name>eat</name>
+		<uuid>11a2d643-2dba-4b68-adfc-235f8fe7b3d5</uuid>
+	</animation>
+	<animation>
+		<name>sit</name>
+		<uuid>925a86bd-1519-40b0-ab8b-ad0ba71921a1</uuid>
+	</animation>
+	<animation>
+		<name>scribe</name>
+		<uuid>5d3c20e4-d8f7-4da5-a64c-1e08109d1f72</uuid>
+	</animation>
+	<animation>
+		<name>meeting</name>
+		<uuid>86755f9e-3ad8-45b8-9459-f0bc1d264f1b</uuid>
+	</animation>
+	<animation>
+		<name>changing</name>
+		<uuid>cbeb9360-e1f9-4143-93f3-7a7b7c527d25</uuid>
+	</animation>
+</animations>

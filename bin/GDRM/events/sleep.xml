@@ -1,0 +1,22 @@
+<events>
+	<event>
+		<name>sleep</name>
+		<max>12</max>
+		<instructions>
+			<Say><message>Time to go to bed!</message></Say>
+			<SetAppearance><appearance_name>cassock_canon</appearance_name></SetAppearance>
+			<NavigateTo><node_name>sleep_right</node_name></NavigateTo>
+			<DoAnimation><animation_name>sleep</animation_name><animation_duration>0</animation_duration></DoAnimation>
+		</instructions>
+	</event>
+	<event>
+		<name>sleep</name>
+		<max>3</max>
+		<instructions>
+			<Say><message>Time to go to bed!</message></Say>
+			<SetAppearance><appearance_name>cassock_canon</appearance_name></SetAppearance>
+			<NavigateTo><node_name>sleep_left</node_name></NavigateTo>
+			<DoAnimation><animation_name>sleep_inverse</animation_name><animation_duration>0</animation_duration></DoAnimation>
+		</instructions>
+	</event>
+</events>
